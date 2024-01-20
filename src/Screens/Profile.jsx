@@ -16,7 +16,7 @@ export default function EditButton() {
   const [nameError, setNameError] = useState("");
   const [activeTab, setActiveTab] = useState("ABOUT");
   const [bio, setBio] = useState(localStorage.getItem("bio") || "");
-  const [joinDate, setJoinDate] = useState(new Date());
+  const [joinDate] = useState(new Date());
   const [subscriptionDuration, setSubscriptionDuration] = useState(0);
 
   useEffect(() => {

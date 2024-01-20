@@ -14,6 +14,7 @@ import LandingScreen from './Screens/LandingScreen';
 import Start from './Components/Start';
 import SampleScreen from './Screens/SampleScreen';
 import Profile from './Screens/Profile';
+import Chapter from './Screens/ChapterDropdown';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path='/' element={<HomeScreen />} exact />
             <Route path='/start' element={<Start />} />
             <Route path='/product/:id' element={<ProductScreen />} />
+            <Route path='/chapter' element={<Chapter />} />
             <Route path='/popular' element={<PopularScreen />} />
             <Route path='/latest' element={<LatestScreen />} />
             <Route path='/about' element={<AboutScreen />} />

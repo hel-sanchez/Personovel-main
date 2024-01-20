@@ -199,7 +199,7 @@
     margin: 0;
     font-size: 16px;
     line-height: 1.5;
-    font-family: 'Arial', sans-serif; /* Change the font as needed */
+    font-family: 'Arial', sans-serif;
   }
   
   .subscription-actions {
@@ -212,7 +212,7 @@
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
-    font-family: 'Verdana', sans-serif; /* Change the font as needed */
+    font-family: 'Verdana', sans-serif;
   }
   
   .subscription-actions button.subscribe {
@@ -238,7 +238,7 @@
   .left-column-sub,
   .right-column-sub {
     flex: 1;
-    padding: 0 10px; /* Adjust the spacing between columns */
+    padding: 0 10px;
   }
   
   .left-column-sub {
@@ -267,7 +267,7 @@
   .left-column-sub img,
   .right-column-sub img {
     width: 100%;
-    max-width: 200px; /* Adjust the image width as needed */
+    max-width: 200px;
     border-radius: 50%;
   }
   
